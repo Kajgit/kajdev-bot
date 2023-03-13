@@ -14,7 +14,7 @@ const client = new Client({
 });
 
 client.on("unhandledRejection", (reason, p) => {
-  const ChannelID = "1061924092346904657";
+  const ChannelID = "channel id here";
   console.error("Unhandled promise rejection:", reason, p);
   const Embed = new EmbedBuilder()
     .setColor("#235ee7")
